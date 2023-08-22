@@ -4,38 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>Register Page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Login</h1>
+        <h1>Register Here</h1>
         <div class="form-value">
             
         <form action="">
-            <div class="inputbox">
-                <input type="email" placeholder="Email Id" required>
+        <div class="inputbox">
+            <input type="text" placeholder="Username" required>
         </div>
 
         <div class="inputbox">
-            <input type="password" placeholder="Password" required>            
+            <input type="email" placeholder="Email Id" required>
         </div>
 
-        <div class="forgot">
-            <a href="">Forgot Password</a>
+        <div class="inputbox">
+            <input type="password" id="pwd" placeholder="Password" required>            
         </div>
 
-        <div class="check">
-                <input type="checkbox">Remember me</label>
+        <div class="inputbox">
+            <input type="password" id="confirmmpwd" placeholder="Confirm Password" required>            
         </div>
 
         <div class="btn">
-        <button class="login">Login</button>
+        <button class="login">Register</button>
         </div>
     
         <div class="register">
-            <p>Don't have a acoount ? <a href="register.html">Register Here</a></p>
+            <p>Already have acoount ? <a href="index.html">Login Here</a></p>
         </div>
 
         <div class="signup">
@@ -52,5 +52,7 @@
 
     </div>
 
+    <script src="script.js"></script>
+    
 </body>
 </html>
